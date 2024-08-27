@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(255, 201, 210);
+    color: rgb(93, 0, 151);
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+ }
+ button { 
+    background-color: rgb(138, 138, 239);
+    color: aliceblue;
+    font-family: "Dancing Script", cursive;
+   
+ }
+
+ .passo{
+   display: none;
+}
+
+.passo.ativo {
+display:block;
+}
+
+main { 
+   text-align: center;
+max-width: 50%;
+}
+
+img{ 
+   max-width: 50%;
+}
